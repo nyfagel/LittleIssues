@@ -41,11 +41,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
-$db['default']['dbdriver'] = 'mysql';
+$db['default']['hostname'] = 'selma.cnrovgyayfsx.us-east-1.rds.amazonaws.com';
+$db['default']['username'] = 'li';
+$db['default']['password'] = 'Testing123!';
+$db['default']['database'] = 'li';
+$db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = 'bf_';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
